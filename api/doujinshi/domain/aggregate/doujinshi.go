@@ -3,7 +3,7 @@ package aggregate
 import (
 	"os"
 
-	valueobject "gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/domain/value-object"
+	valueobject "github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/domain/value-object"
 )
 
 type Doujinshi struct {

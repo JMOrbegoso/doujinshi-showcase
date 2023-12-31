@@ -1,10 +1,10 @@
 package api
 
 import (
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/domain/repository"
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/presentation/controller"
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/presentation/middleware"
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/presentation/swagger"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/domain/repository"
+	"github.com/jmorbegoso/doujinshi-showcase/api/presentation/controller"
+	"github.com/jmorbegoso/doujinshi-showcase/api/presentation/middleware"
+	"github.com/jmorbegoso/doujinshi-showcase/api/presentation/swagger"
 
 	"github.com/gin-gonic/gin"
 )

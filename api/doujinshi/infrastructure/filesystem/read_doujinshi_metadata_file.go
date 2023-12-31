@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/infrastructure/filesystem/models"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/infrastructure/filesystem/models"
 )
 
 func readDoujinshiMetadataFile(filename string) (*models.DoujinshiMetadata, error) {

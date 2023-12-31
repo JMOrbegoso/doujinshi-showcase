@@ -3,8 +3,8 @@ package controller
 import (
 	"os"
 
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/domain/repository"
 	"github.com/gin-gonic/gin"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/domain/repository"
 )
 
 func AddImagesController(routerGroup *gin.RouterGroup, doujinshiRepository repository.DoujinshiRepository) {

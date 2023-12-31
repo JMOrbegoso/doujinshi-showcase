@@ -1,6 +1,6 @@
 package repository
 
-import "gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/domain/aggregate"
+import "github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/domain/aggregate"
 
 type DoujinshiRepository interface {
 	GetById(string) (*aggregate.Doujinshi, error)

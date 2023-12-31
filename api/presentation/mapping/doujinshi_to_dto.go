@@ -1,8 +1,8 @@
 package mapping
 
 import (
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/domain/aggregate"
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/presentation/dto"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/domain/aggregate"
+	"github.com/jmorbegoso/doujinshi-showcase/api/presentation/dto"
 )
 
 func DoujinshiToDto(d aggregate.Doujinshi) dto.DoujinshiDto {

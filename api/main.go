@@ -1,10 +1,10 @@
 package main
 
 import (
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/domain/aggregate"
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/infrastructure/filesystem"
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/infrastructure/in_memory"
-	api "gitea.jmorbegoso.com/jm/doujinshi-showcase/api/presentation"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/domain/aggregate"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/infrastructure/filesystem"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/infrastructure/in_memory"
+	api "github.com/jmorbegoso/doujinshi-showcase/api/presentation"
 )
 
 func main() {

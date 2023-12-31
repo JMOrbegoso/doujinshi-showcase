@@ -4,9 +4,9 @@ import (
 	"io/fs"
 	"path/filepath"
 
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/domain/aggregate"
-	valueobject "gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/domain/value-object"
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/infrastructure/filesystem/models"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/domain/aggregate"
+	valueobject "github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/domain/value-object"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/infrastructure/filesystem/models"
 )
 
 func createDoujinshiFromMetadata(metadata *models.DoujinshiMetadata, librarySubfolder fs.DirEntry, files []fs.DirEntry) (*aggregate.Doujinshi, error) {

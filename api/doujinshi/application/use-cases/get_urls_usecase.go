@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/domain/repository"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/domain/repository"
 )
 
 func GetUrlsUseCase(doujinshiRepository repository.DoujinshiRepository) ([]string, error) {

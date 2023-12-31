@@ -1,8 +1,8 @@
 package usecases
 
 import (
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/domain/repository"
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/helpers"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/domain/repository"
+	"github.com/jmorbegoso/doujinshi-showcase/api/helpers"
 )
 
 type Parody struct {

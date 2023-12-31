@@ -1,4 +1,4 @@
-module gitea.jmorbegoso.com/jm/doujinshi-showcase/api
+module github.com/jmorbegoso/doujinshi-showcase/api
 
 go 1.20
 

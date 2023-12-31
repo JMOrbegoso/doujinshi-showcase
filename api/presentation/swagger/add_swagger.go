@@ -1,7 +1,7 @@
 package swagger
 
 import (
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/presentation/docs"
+	"github.com/jmorbegoso/doujinshi-showcase/api/presentation/docs"
 
 	"github.com/gin-gonic/gin"
 	swaggerfiles "github.com/swaggo/files"

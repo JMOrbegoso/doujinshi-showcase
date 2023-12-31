@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/domain/aggregate"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/domain/aggregate"
 )
 
 func GetDoujinshiFromFilesystem() ([]*aggregate.Doujinshi, error) {

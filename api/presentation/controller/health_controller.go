@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/presentation/handler"
 	"github.com/gin-gonic/gin"
+	"github.com/jmorbegoso/doujinshi-showcase/api/presentation/handler"
 )
 
 func AddHealthController(routerGroup *gin.RouterGroup) {

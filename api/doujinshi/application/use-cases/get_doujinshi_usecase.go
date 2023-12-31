@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/domain/aggregate"
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/domain/repository"
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/helpers"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/domain/aggregate"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/domain/repository"
+	"github.com/jmorbegoso/doujinshi-showcase/api/helpers"
 )
 
 func GetDoujinshiUseCase(doujinshiRepository repository.DoujinshiRepository, searchFilter string, quantity uint, randomSort bool, titleFilters []string, artistFilters []string, circleFilters []string, categoryFilters []string, characterFilters []string, parodyFilters []string, tagFilters []string) ([]aggregate.Doujinshi, error) {

@@ -3,7 +3,7 @@ package in_memory
 import (
 	"strings"
 
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/domain/aggregate"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/domain/aggregate"
 )
 
 type DoujinshiInMemoryRepository struct {

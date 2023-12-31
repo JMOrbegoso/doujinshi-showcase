@@ -5,11 +5,11 @@ import (
 	"sort"
 	"strings"
 
-	usecases "gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/application/use-cases"
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/domain/repository"
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/presentation/dto"
-	mapping "gitea.jmorbegoso.com/jm/doujinshi-showcase/api/presentation/mapping"
 	"github.com/gin-gonic/gin"
+	usecases "github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/application/use-cases"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/domain/repository"
+	"github.com/jmorbegoso/doujinshi-showcase/api/presentation/dto"
+	mapping "github.com/jmorbegoso/doujinshi-showcase/api/presentation/mapping"
 )
 
 // @Summary Get tags

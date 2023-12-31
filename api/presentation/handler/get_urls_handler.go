@@ -3,9 +3,9 @@ package handler
 import (
 	"net/http"
 
-	usecases "gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/application/use-cases"
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/domain/repository"
 	"github.com/gin-gonic/gin"
+	usecases "github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/application/use-cases"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/domain/repository"
 )
 
 // @Summary Get the doujinshi urls

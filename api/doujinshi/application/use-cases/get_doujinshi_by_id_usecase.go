@@ -1,8 +1,8 @@
 package usecases
 
 import (
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/domain/aggregate"
-	"gitea.jmorbegoso.com/jm/doujinshi-showcase/api/doujinshi/domain/repository"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/domain/aggregate"
+	"github.com/jmorbegoso/doujinshi-showcase/api/doujinshi/domain/repository"
 )
 
 func GetDoujinshibyIdUseCase(doujinshiRepository repository.DoujinshiRepository, id string) (*aggregate.Doujinshi, error) {
