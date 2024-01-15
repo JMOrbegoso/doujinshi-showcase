@@ -14,6 +14,17 @@
 
 Doujinshi Showcase is a simple doujinshi reading server, where you can set up your doujinshi library and view it from any browser.
 
+> Doujinshi (同人誌) is the Japanese term for self-published print works, such as magazines, manga, and novels.
+> Doujinshi are often derivative of existing works and created by amateurs, though some professional artists participate in order to publish material outside the regular industry.
+>
+> &mdash; <cite>Wikipedia</cite>
+
+## 📷 Demo images
+
+![Library](https://raw.githubusercontent.com/JMOrbegoso/doujinshi-showcase/main/img/library.webp 'Library')
+
+![Reading a doujinshi](https://raw.githubusercontent.com/JMOrbegoso/doujinshi-showcase/main/img/read.webp 'Reading a doujinshi')
+
 ## ✨ Features
 
 - Databaseless: Do not use a database, instead it read all the doujinshi data from a json file inside each doujinshi folder in your library.
