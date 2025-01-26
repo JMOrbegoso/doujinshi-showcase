@@ -153,6 +153,7 @@ services:
 
 **JMOrbegoso**
 
-- Website: [jmorbegoso.com](https://www.jmorbegoso.com)
+- Website: [www.jmorbegoso.dev](https://www.jmorbegoso.dev)
+- Blog: [blog.jmorbegoso.dev](https://blog.jmorbegoso.dev)
 - Github: [@JMOrbegoso](https://github.com/JMOrbegoso/)
 - LinkedIn: [@jmorbegosodev](https://www.linkedin.com/in/jmorbegosodev/)
